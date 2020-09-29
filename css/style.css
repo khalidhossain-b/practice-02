@@ -84,12 +84,13 @@ h3{
     float: right;
 
 }
-.signup-section .btn-cus{
-   background: linear-gradient(180deg,#139ff0 0,#007fed);
+.signup-section button{
+   background: #139ff0;
     color: black;
     font-size: 22px;
     border-radius: 0;
     font-weight: 700;
+    transition-duration: all 0.3s;
 }
 .form-control {
    
@@ -107,4 +108,8 @@ h3{
 }
 .form-check-label{
   font-size: 14px;
+}
+.signup-section .btn-cus:hover{
+  background: #007FED;
+  color: black;
 }
