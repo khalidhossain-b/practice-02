@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Raleway:wght@300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+:root{
+--1f: 'Playfair Display', serif;
+--2f: 'Raleway', sans-serif;  
+--3f: 'Roboto', sans-serif;;
+}
+body{
+  font-family: 'Roboto', sans-serif;
+}
+
+.signup-section h1 a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #333;
+    display: inline-block;
+    margin-bottom: 25px;
+    font-weight: 600;
+}
+h1{
+  text-align: center;
+}
+.signup-section .btn-custom{
+      background: #4267B2;
+    color: black;
+    font-size: 20px;
+    border-radius: 0;
+    font-weight: 700;
+}
+.signup img {
+  width: 200px;
+  height: 100%;
+  margin: auto;
+  display: flex;
+}
+h2{
+font-size: 13px;
+    text-align: center;
+    font-weight: 400;
+
+}
+h2 a{
+  text-decoration: none;
+}
+.line{
+    height: 1px;
+    width: 100%;
+    background: #c3beb7;
+    margin: 30px 0;
+}
+p{
+  position: relative;
+  z-index: 1;
+  text-align: center;
+      margin: 25px 0;
+      text-transform: uppercase;
+      font-weight: 600;
+      font-size: 14px;
+
+}
+span {
+ background: #fff;
+    padding: 0px 7px;
+
+
+}
+span::before{
+  content: "";
+    position: absolute;
+    height: 1px;
+    width: 100%;
+    left: 0;
+    top: 52%;
+    background: #c3beb7;
+    transform: translateY(50%);
+    z-index: -1;
+}
+h3{
+    font-size: 16px;
+    color: #29b2fe;
+    text-align: right;
+    font-weight: 400;
+    float: right;
+
+}
+.signup-section .btn-cus{
+   background: linear-gradient(180deg,#139ff0 0,#007fed);
+    color: black;
+    font-size: 22px;
+    border-radius: 0;
+    font-weight: 700;
+}
+.form-control {
+   
+    padding: 10px 10px;
+    border: 1px solid #ced4da;
+    border-radius: 0;
+}
+.form-control:focus{
+  border-color: #007fed;
+  box-shadow: 0 0 0 0;
+}
+.form-check-input[type=checkbox] {
+    border-radius: 0;
+    box-shadow: 0 0 0 0;
+}
+.form-check-label{
+  font-size: 14px;
+}
